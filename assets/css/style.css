@@ -1015,7 +1015,13 @@ section {
 --------------------------------------------------------------*/
 .contact .info {
   width: 100%;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
   background: #fff;
+  flex-direction: row;
+  align-content: center;
+  align-items: flex-end;
 }
 
 .contact .info i {
